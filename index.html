@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio for Mimi Z. Torabi, a Senior Product Manager specializing in accessible AI products, responsible launches, and measurable product outcomes."
+    />
+    <title>Mimi Z. Torabi | Senior Product Manager for AI Products</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="logo" href="#home" aria-label="Mimi Z. Torabi home">MZT</a>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-menu"
+          data-nav-toggle
+        >
+          <span class="sr-only">Toggle navigation menu</span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+        <ul class="nav-links" id="primary-menu" data-nav-menu>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero section" id="home" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Senior Product Manager · AI Products</p>
+          <h1 id="hero-title">Building useful, trustworthy AI experiences from strategy to launch.</h1>
+          <p class="hero-copy">
+            I help teams turn ambiguous AI opportunities into accessible products that customers understand,
+            trust, and use every day.
+          </p>
+          <div class="hero-actions" aria-label="Primary calls to action">
+            <a class="button button-primary" href="#work">View featured work</a>
+            <a class="button button-secondary" href="mailto:hello@example.com">Start a conversation</a>
+          </div>
+        </div>
+        <aside class="impact-panel" aria-label="Portfolio highlights">
+          <h2>Recent impact</h2>
+          <dl>
+            <div>
+              <dt>32%</dt>
+              <dd>Increase in activation after AI onboarding redesign</dd>
+            </div>
+            <div>
+              <dt>4.8/5</dt>
+              <dd>Average beta satisfaction for an enterprise copilot</dd>
+            </div>
+            <div>
+              <dt>0→1</dt>
+              <dd>AI products launched across B2B and consumer markets</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2 id="about-title">A product leader who keeps humans at the center of AI.</h2>
+        </div>
+        <div class="about-grid">
+          <p>
+            I partner with design, research, engineering, legal, and go-to-market teams to ship AI features
+            that solve real customer problems. My work spans product discovery, roadmap planning, model-risk
+            reviews, experimentation, and launch enablement.
+          </p>
+          <p>
+            My product practice is grounded in clear customer value, inclusive research, measurable outcomes,
+            and responsible AI guardrails. I am especially energized by tools that make complex work easier for
+            people without hiding important decisions from them.
+          </p>
+          <ul class="skills-list" aria-label="Core strengths">
+            <li>AI product strategy</li>
+            <li>Customer discovery</li>
+            <li>Responsible launch planning</li>
+            <li>Cross-functional leadership</li>
+            <li>Accessibility-first UX</li>
+            <li>Experiment design</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section work" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <p class="eyebrow">Featured projects</p>
+          <h2 id="work-title">Reusable project cards for portfolio stories.</h2>
+          <p>
+            Each card highlights the problem, product approach, and business outcome so visitors can quickly
+            understand the value behind the work.
+          </p>
+        </div>
+        <div class="project-grid" data-project-grid aria-live="polite"></div>
+      </section>
+
+      <section class="section contact" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-title">Have an AI product challenge worth solving?</h2>
+          <p>
+            I am open to senior product leadership conversations, advisory projects, and collaborations focused
+            on responsible AI product development.
+          </p>
+        </div>
+        <a class="button button-primary" href="mailto:hello@example.com">Email Mimi</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Mimi Z. Torabi. Built with plain HTML, CSS, and JavaScript.</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
